@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #d6bda6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    border: 1px solid blue;
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: rgba(22, 22, 22, 0.863);
+    text-decoration: none;
+    font-size: small;
+    font-weight: bolder;
+}
+
+a{
+    transition: all 0.1s ease;
+}
+
+a:hover{
+    border-bottom: 0.16rem solid rgba(61, 60, 60, 0.808);
+}
+
+.boton_1:hover, .boton_2:hover{
+    border: 0.16rem solid rgba(61, 60, 60, 0.808);
+    border-radius: 0.16rem;
+}
+
+.div_logo {
+    width: 15%;
+    border: 1px solid chartreuse;
+}
+
+.logo {
+    height: 6rem;
+}
+
+.section_header {
+    width: 47%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.div_iconos {
+    width: 20%;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-right: 0.13rem solid rgba(90, 90, 90, 0.301);
+}
+
+.lupa {
+    height: 1.3rem;
+    margin: 0.5rem
+}
+
+.bolsa {
+    height: 1.3rem;
+    margin: 0.5em;
+}
+
+.div_botones {
+    width: 27%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boton_1 {
+    padding: 0.3rem 0.8rem 0.2rem 0.8rem;
+    border: none;
+    background-color: #d6bda6;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.boton_2 {
+    border: none;
+    padding: 0.3rem 0.8rem 0.2rem 0.8rem;
+    background-color: #d6bda6;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.boton_1, .boton_2{
+    transition: all 0.1s ease;
+}
