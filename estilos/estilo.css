@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items: center;
     width: 90%;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 nav {
@@ -133,7 +133,7 @@ a:hover {
 }
 
 .portrait {
-    height: 90vh;
+    height: 80vh;
     border: 1px solid slateblue;
 }
 
