@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif&display=swap');
 
 * {
     margin: 0;
@@ -14,7 +14,8 @@ header {
     display: flex;
     align-items: center;
     width: 90%;
-    margin: 1rem auto;
+    margin: 0 auto;
+    border: 1px solid cadetblue;
 }
 
 nav {
@@ -27,7 +28,7 @@ nav {
 a {
     color: rgba(22, 22, 22, 0.863);
     text-decoration: none;
-    font-size: small;
+    font-size: smaller;
     font-weight: bolder;
 }
 
@@ -38,6 +39,14 @@ a {
 main {
     width: 90%;
     margin: 0 auto;
+    border: 1px solid cadetblue;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'PT Serif', serif;
+    font-weight:500;
+    font-style:inherit;
 }
 
 a:hover {
@@ -50,17 +59,22 @@ a:hover {
     border-radius: 0.16rem;
 }
 
+.boton_3:hover{
+    background-color: #d6bda6;
+    transform: scale(1.1);
+}
+
 .div_logo {
     width: 15%;
     border: 1px solid chartreuse;
 }
 
 .logo {
-    height: 6rem;
+    height: 4.3rem;
 }
 
 .section_header {
-    width: 47%;
+    width: 52%;
     border: 1px solid red;
     display: flex;
     justify-content: flex-end;
@@ -77,12 +91,12 @@ a:hover {
 }
 
 .lupa {
-    height: 1.3rem;
+    height: 1rem;
     margin: 0.5rem
 }
 
 .bolsa {
-    height: 1.3rem;
+    height: 1rem;
     margin: 0.5em;
 }
 
@@ -96,7 +110,7 @@ a:hover {
     padding: 0.3rem 0.8rem 0.2rem 0.8rem;
     border: none;
     background-color: #d6bda6;
-    font-size: small;
+    font-size: smaller;
     font-weight: bolder;
 }
 
@@ -104,7 +118,7 @@ a:hover {
     border: none;
     padding: 0.3rem 0.8rem 0.2rem 0.8rem;
     background-color: #d6bda6;
-    font-size: small;
+    font-size: smaller;
     font-weight: bolder;
 }
 
@@ -120,20 +134,43 @@ a:hover {
 .div_texto {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     border: 1px solid yellow;
-    flex-wrap: wrap;
-    width: 50%;
+    width: 43%;
 }
+
 
 .div_numeros {
     border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: end;
 }
 
 .boton_3{
-    width: 10rem;
+    width: 8rem;
+    height: 2.7rem;
+    margin-top: 4rem;
+    border: 0.18rem solid black ;
+    color: #000;
+    font-weight: bold;
+    font-size: small;
+}
+
+.boton_3{
+    transition: all 0.3s ease-in;
+}
+
+.div_p_texto{
+    width: 60%;
+    line-height: 1.6rem;
+    font-size: 1.12rem;
+}
+
+.p_texto{
+    font-family: 'PT Serif', serif;
+    color: rgb(44, 44, 44);
 }
 
 .uno,
@@ -144,13 +181,18 @@ a:hover {
 
 .div_img_main {
     display: flex;
+    gap: 50%;
 }
 
 .div_img {
     border: 1px solid black;
+    height: 85vh;
+    width: 50vw;
 }
 
 .portrait {
-    height: 84vh;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
     border: 1px solid slateblue;
 }
